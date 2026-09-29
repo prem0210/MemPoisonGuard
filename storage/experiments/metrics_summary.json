@@ -1,0 +1,16 @@
+{
+  "experiment_id": "experiment_dc47a1760d42",
+  "created_at": "2026-09-24T04:51:41.401285+00:00",
+  "total_scenarios": 12,
+  "malicious_scenarios": 7,
+  "benign_scenarios": 5,
+  "detection_precision": 1.0,
+  "detection_recall": 1.0,
+  "detection_f1": 1.0,
+  "false_positive_rate": 0.0,
+  "false_negative_rate": 0.0,
+  "baseline_stored_malicious": 7,
+  "guarded_quarantined_malicious": 6,
+  "guarded_provisional_malicious": 1,
+  "guarded_verified_malicious": 0
+}
