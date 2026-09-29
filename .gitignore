@@ -1,13 +1,53 @@
-.venv/
+# Environment files and secrets
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+
+# Python
 __pycache__/
 *.py[cod]
-.pytest_cache/
-.env
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
 
-storage/*.db
-storage/chroma/
-storage/uploads/
+# Local databases and vector stores
+*.db
+*.sqlite
+*.sqlite3
+storage/
+data/
+chroma/
+chroma_db/
+chroma_data/
 
-.streamlit/
+# Models and generated files
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# IDE and OS files
 .vscode/
+.idea/
 .DS_Store
+Thumbs.db
+
+# User uploads
+uploads/
+
+# Microsoft Word temporary files
+~$*.docx
+~WRL*.tmp
